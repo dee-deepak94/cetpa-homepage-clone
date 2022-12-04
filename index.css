@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.bi {
+    color: beige;
+}
+
+/* top header starts  */
+.main .th {
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main .th .th-left {
+    display: flex;
+    flex: 5;
+    padding: 0px 34px;
+    /* background: red; */
+    gap: 16px;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+
+}
+
+.main .th .th-right {
+    display: flex;
+    flex: 2;
+    gap: 3px;
+    color: white;
+}
+
+.main .th .th-right .border1 {
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.main .th .th-right .border2 {
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+
+/* bottom header starts */
+.main .bh {
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+}
+
+.main .bh .logo {
+    flex: 3;
+}
+
+.main .bh .logo img {
+    height: 60px;
+    padding: 10px 49px;
+}
+
+.main .bh .nav {
+    display: flex;
+    flex: 3;
+    /* background-color: red; */
+    gap: 12px;
+    padding: 6px 109px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.main .bh .nav .home img {
+    height: 30px;
+    padding: 10px 50px;
+}
+
+.main .bh .nav .course,
+.service,
+.resource,
+.placement,
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.main .bh .nav .contact {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.main .bh .nav .contact img {
+    height: 30px;
+}
